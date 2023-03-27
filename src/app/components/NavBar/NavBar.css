@@ -49,6 +49,7 @@
 
 .menu.open {
   display: block;
+  overflow: hidden;
 }
 
 .menu ul {
@@ -72,21 +73,19 @@
   text-decoration: none;
 }
 .modal-backdrop {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 0px;
   left: 0;
   width: 40%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
-.select{
-  color: #2A3037;
-
+.select {
+  color: #2a3037;
 }
-.noselect{
-  color: #CBD0D3;
-
+.noselect {
+  color: #cbd0d3;
 }
 
 @media only screen and (min-width: 768px) {
