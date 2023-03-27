@@ -1,0 +1,22 @@
+.footer{
+  background-color: #2A3037;
+  color: #fff;
+  height: 80px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Icons{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Logo{
+  padding: 30px;
+}
