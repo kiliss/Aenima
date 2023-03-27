@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const handleMenu = () => {
     setOpen(!open);
+    document.body.style.overflow = open ? "auto" : "hidden";
   };
 
   return (
