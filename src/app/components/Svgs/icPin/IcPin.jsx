@@ -5,7 +5,7 @@ function IcPin() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="23.8"
-      height="19"
+      height="34"
       viewBox="0 0 23.8 34"
     >
       <g id="ic_pin" transform="translate(-139 -252.056)">

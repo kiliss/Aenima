@@ -51,3 +51,87 @@
   width: 87px;
   height: 50px;
 }
+.hero__adventure {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero__subtitle2 {
+    display: block;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+    width: 80%;
+
+  }
+  .hero__content{
+    display: flex;
+    width: 60%;
+  }
+  .hero__title{
+    font-size: 48px;
+  }
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .hero__subtitle{
+    font-size: 24px;
+  }
+  .heroNav {
+    width: 107px;
+    height: auto;
+  }
+  .text__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-left: 60px;
+  }
+  .hero__adventure{
+    display: block;
+    background: rgba(42, 48, 55, 0.5);
+    border-style:dashed;
+    border-width: 1px;
+    border-color: white;
+    padding: 20px;
+    padding-top: 0px;
+    width: 17%;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    right: 60px;
+  }
+  .hero__adventure__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero__text__adventure{
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    color: rgba(250, 105, 128, 1);
+    margin-bottom: -20px;
+  }
+  .hero__text__location{
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    color: white;
+    margin-bottom: -10px;
+  }
+  .hero__text__info{
+    font-family: "Montserrat-Light";
+    font-size: 14px;
+    color: white;
+  }
+  .arrow{
+    position: relative;
+    top: 20px;
+  }
+}
