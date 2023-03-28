@@ -5,6 +5,9 @@
   margin-top: -230px;
   padding-top: 20px;
 }
+.section__small{
+  display: none;
+}
 .title__section2 {
   font-family: "Montserrat-Bold";
   font-size: 24px;
@@ -18,6 +21,7 @@
   height: 429px;
   color: #fff;
   border-radius: 6px;
+  cursor: pointer;
 }
 .blog__section2 {
   background: url(../../assets/img/articulo_big_02.png) no-repeat center center;
@@ -25,32 +29,35 @@
   height: 429px;
   color: #fff;
   border-radius: 6px;
+  cursor: pointer;
 }
 
-.h4__blog {
-  font-family: "Montserrat-Bold";
-  font-size: 16px;
-  padding: 40px;
-}
-.h3__blog {
-  font-family: "Montserrat-Bold";
-  font-size: 24px;
-  padding-left: 40px;
-  padding-top: 210px;
+@media screen and (min-width: 1070px) {
+  .blog__section1 {
+    width: 90%;
+    height: 429px;
+    margin-left: 60px;
+    
+  }
+  .blog__section2 {
+    width: 90%;
+    height: 429px;
+    margin-left: 60px;
+  }
+  .section__small{
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .res__blog{
+    display: flex;
+    margin-left: 40px;
+  }
+  .res__big{
+    width: 60%;
+
+  }
+
 }
 
-.p__blog {
-  font-family: "Montserrat-regular";
-  display: none;
-}
-
-.time__blog {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: "Montserrat-regular";
-  color: #cbd0d3;
-  padding-left: 40px;
-  position: relative;
-  bottom: 30px;
-}
