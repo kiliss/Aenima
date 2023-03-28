@@ -83,9 +83,11 @@
 }
 .select {
   color: #2a3037;
+  cursor: pointer;
 }
 .noselect {
   color: #cbd0d3;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
